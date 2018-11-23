@@ -1,0 +1,110 @@
+\documentclass[12pt]{report}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{epsf}
+\usepackage{amsrefs}
+
+
+
+
+\title{Deep Learning Image Recognition: 
+	Identifying Predominant Breeds within Mixed-Breed Dogs}
+\date{November 23rd, 2018}
+\author{Julia Goyco, Zoe Lambert, Jennifer Mince, Stephanie Schoch}
+\begin{document}
+	\maketitle
+\section*{Abstract} 
+\indent	\par 
+		\par 
+\newpage
+ \section* {Introduction} 
+		
+\indent	\par The purpose of this paper and project was image recognition of dog breeds through deep learning methods. The guiding question that led to this research was: can we use a deep learning approach to determine the two predominant breeds in a mixed-breed dog? 
+\par The project began by looking at current dog breed image recognition projects for a starting point to work off of and change to fit the purpose of recognizing the two dog breeds that created the mixed-breed fed into the model.
+	
+\section* {Existing Conclusions} 
+		
+\indent	\par Similar projects to what the group wanted to achieve include...
+
+\par 
+		
+\section* {Data and Processing} 
+
+\indent	\par A detailed summary of your implementation and justification of your choices in your model:
+After looking at the work already established on dog breed image recognition, the group began examining and working with the Stanford Dog Breed Classification project. (Explain again and cite). Their dog breed data was used as an original data set to create a new model. 
+\par The data set was created by adding mixed breeds of dogs to the Stanford Dog Breed data set. From there, it was imperative to find images of mixed-breed dogs to increase the corpus and enhance the model’s ability of image recognition to fit the project’s purpose. Importantly, the team noted that only choosing dogs with two distinct parent breeds would make it easiest for the model to learn and accurately identify. Another important thing to note is that the dog breeds had to be a mix of the dogs already included in the training data being used from the previously created Stanford data set. The team split up responsibilities to find dog breeds that fit this description and had images readily available for use. The site “101 dog breed” had a fairly good amount of mixed-breeds that came from two distinctly different breeds with features that related back to each of the parent breeds (cite). Each breed can be search and includes details about the breed and a gallery of images with different dogs of various ages, sizes, colors, per breed. These images were saved in a similar way to the Stanford Dog Breed data set so they could be uploaded to the code and model easily. The specific breeds chosen to start with were: the Golden Saint (Golden Retriever and Saint Bernard), the Cheagle (Chihuahua and Beagle), the Peekapoo (Pekingese and Poodle), the Pitsky (Pitbull and Husky), the Siberian Retriever (Siberian Husky and Golden Retriever), the Puggle (Pug and Beagle), the Maltipom (Maltese and Pomeranian), the Schnoodle (Schnauzer and Poodle), the Chug (Pug and Chihuahua), the Meagle (Miniature Pinscher and Beagle), the Dorkie (Dachshund and Yorkshire Terrier), the Akita Chow (Akita and Chow Chow), the Bernedoodle (Bernese Mountain Dog and Poodle), the Labrahuahau (Labrador Retriever and Chihuahua), the Mal Shi (Maltese and Shih Tzu), the Basset Shepherd (Basset Hound and German Shepherd), the Beagle Bull (Beagle and Pitbull), the Border Beagle (Border Collie and Beagle), the Shepherd Pit (German Shepherd and Pitbull), the Chorkie (Chihuahua and Yorkshire Terrier), the Havapoo (Havanese and Poodle), and the Bull Pug (Pitbull and Pug). 
+\par Data Preprocessing/processing:
+		
+		\par 
+		
+\section* {Implementation} 
+		
+\indent	\par  
+	\par Training:
+\par The team chose a Convolutional Neural Network (CNN) for the preliminary model because research showed most projects of similar type chose this option, such as,... (explain and cite). The option to change to a Recurrent Neural Network (RNN) was always present in case the CNN could not fulfill what was needed from the model to correctly identify mixed-breeds. One project explained that they originally chose a CNN, but had more success with a RNN later (explain and cite).
+\par Transfer Learning?
+\par What projects influenced our model the most? 
+
+
+	
+	\begin{figure}[]
+\centering 
+\begin{subfigure}{.5\textwidth}
+\centering
+
+\label{}
+\end{subfigure}%
+
+\caption{\label{}}
+\end{figure}
+
+\section* {Conclusion}
+\indent \indent \par Testing
+\par What results? How did they improve with changes? The first results were…
+\par We improved by..
+\par A reflection on the successes and failures of your attempt:  
+\par How did it go?
+	
+
+\section* {Future Work}
+
+\par	How we can improve our results, what more can be done, etc. 
+
+
+ 
+
+\begin{bibdiv}
+\begin{biblist}
+\bib{Climate}{misc}{title={Actuaries Climate Index Development and Design},
+author={Climate Change Committee}, author={Climate Index Working Group},author={The American Academy of Actuaries},author={The Casualty Actuarial Society},author={The Canadian Institute of Actuaries},author={The Society of Actuaries},
+date={2016},
+note={Web. 28 Mar. 2017.}}
+
+\bib{ClimateImpact}{webpage}{author={Environmental Protection Agency}, title={Climate Impact on Costal Areas}, 
+date={06 Oct. 2016},
+note={Web. 28 Mar. 2017.}}
+
+
+\bib{Appraisal}{report}{author={Kolk, Stephen Lee}, title={An Appraisal of the Actuaries' Climate Risk Index},
+date={May 18, 2016},
+subtitle={The Economics Impacts of Sea-Level Rise in Hampton Roads},
+note={Paper 7.}}
+
+
+\bib{Drives}{article}{author={Milne, Glenn}, title={How the climate drives sea-level changes},
+note={A \& G 2008; 49 (2): 2.24-2.28.doi: 10.1111/j.1468-4004.2008.49224.x}}
+
+
+
+	
+	
+	
+
+
+
+
+\end{biblist}
+\end{bibdiv}
+\end{document}
